@@ -1,0 +1,36 @@
+{
+  "name": "futmx-bizi-api",
+  "description": "Backend for a proposed business mobile and web application for FUTMinna and its students to enable easy access to goods and services offered by business owners in and around the campus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fave7903/futmx-bizi-api.git"
+  },
+  "author": "Favour Solomon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fave7903/futmx-bizi-api/issues"
+  },
+  "homepage": "https://github.com/Fave7903/futmx-bizi-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.29.0",
+    "uuid": "^9.0.0",
+    "uuidv1": "^1.6.14"
+  }
+}
